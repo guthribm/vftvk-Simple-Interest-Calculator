@@ -17,3 +17,13 @@ padding: 20px;
 border-radius: 25px;
 margin: auto;
 }
+
+.inputs {
+width: 80%;
+  margin: 2rem;
+}
+
+.myname {
+  color: #fa9522;
+  font-weight: bolder;
+}
