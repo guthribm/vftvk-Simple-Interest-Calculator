@@ -10,7 +10,7 @@
 <body>
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
-
+        <div class="inputs">
         Amount <input type="number" id="principal"> <br />
         Rate <input onchange="updateRate()" type="range" id="rate" min="1" max="20" step="0.25" value="10.25"><span id="rate_val">
             10.25%
@@ -30,6 +30,8 @@
         Interest : <span id="result"></span><br>
 
         <button onclick="compute()">Compute Interest</button>
+        </div>
+        
         <span id="result">
 
         </span>
